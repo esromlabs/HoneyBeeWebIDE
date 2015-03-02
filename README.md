@@ -1,14 +1,16 @@
-Espruino Web IDE
+HoneyBee Web IDE
 ======================
 
-A VT100 Serial Terminal as a Chrome Web App (with both syntax highlighted and graphical editors) - designed for writing code on microcontrollers that use the [Espruino JavaScript interpreter](http://www.espruino.com).
+Based on the *Espruino Web IDE* https://github.com/espruino/EspruinoWebIDE
+
+A VT100 Serial Terminal as a Chrome Web App with a graph based editor (Graphlet) - designed for coding microcontroller using https://github.com/esromlabs/honeybee-arduino or other graph-oriented microcontroller interpreters.
 
 [![ScreenShot](https://raw.github.com/espruino/EspruinoWebIDE/master/extras/screenshot.png)](http://youtu.be/Fjju_QhzL-c)
 [![ScreenShot](https://raw.github.com/espruino/EspruinoWebIDE/master/extras/screenshot2.png)](http://youtu.be/Fjju_QhzL-c)
 
 This is a Chrome Web App that uses [chome.serial](https://developer.chrome.com/apps/serial) to access your PC's serial port. You can download it from the Chrome Web Store: https://chrome.google.com/webstore/detail/espruino-serial-terminal/bleoifhkdalbjfbobjackfdifdneehpo
 
-It implements basic VT100 terminal features (up/down/left/right/etc) - enough for you to write code using the Espruino. You can also use the right-hand pane to write JavaScript code on the PC, and can then click the 'transfer' icon to send that code directly down the Serial Port.
+It implements basic VT100 terminal features (up/down/left/right/etc) - enough for you to write code using the Espruino. You can also use the right-hand pane to contruct graphs in the Graphlet language, and then you click the 'transfer' icon to send that graph directly down the Serial Port.
 
 Installing From Chrome Web Store
 ----------------------------
